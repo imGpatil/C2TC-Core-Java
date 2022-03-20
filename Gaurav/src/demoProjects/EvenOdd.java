@@ -5,7 +5,7 @@ public class EvenOdd {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner num1= new Scanner(System.in);
-		System.out.println("Enter your nummber");
+		System.out.println("Enter your number");
 		int x= num1.nextInt();
 		if (x%2==0)
 		{
