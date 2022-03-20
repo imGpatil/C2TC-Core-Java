@@ -11,6 +11,8 @@ public class Addition {
 		int y= num2.nextInt();
 		int z=(x + y);
 				System.out.println("Your answer is "+z);
+		num1.close();
+		num2.close();
 	}
 
 }

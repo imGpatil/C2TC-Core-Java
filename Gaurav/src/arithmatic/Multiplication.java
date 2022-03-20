@@ -11,6 +11,8 @@ public class Multiplication {
 		int y= num2.nextInt();
 		int z=(x*y);
 		System.out.println("Multiplication is "+z);
+		num1.close();
+		num2.close();
 	}
 
 }

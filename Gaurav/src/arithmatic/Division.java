@@ -7,10 +7,12 @@ public class Division {
 		Scanner num1= new Scanner(System.in);
 		Scanner num2= new Scanner(System.in);
 		System.out.println("Enter Dividend & Divider");
-		int x= num1.nextInt();
+		float x= num1.nextFloat();
 		int y= num2.nextInt();
-		int z=(x/y);
+		float z=(x/y);
 		System.out.println("Division is "+z);
+		num1.close();
+		num2.close();
 	}
 
 }
