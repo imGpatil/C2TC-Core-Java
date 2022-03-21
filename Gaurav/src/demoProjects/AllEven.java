@@ -4,7 +4,7 @@ public class AllEven {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Enter limit to even numbers ");
+		System.out.println("Enter even number limit10 ");
 		Scanner num1 = new Scanner(System.in);
 		int x = num1.nextInt();
 		System.out.println("List of all Even numbers from 1 to " +x);

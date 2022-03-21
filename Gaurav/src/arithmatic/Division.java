@@ -6,8 +6,9 @@ public class Division {
 		// TODO Auto-generated method stub
 		Scanner num1= new Scanner(System.in);
 		Scanner num2= new Scanner(System.in);
-		System.out.println("Enter Dividend & Divider");
+		System.out.println("Enter your Dividend");
 		float x= num1.nextFloat();
+		System.out.println("Enter the divider");
 		int y= num2.nextInt();
 		float z=(x/y);
 		System.out.println("Division is "+z);

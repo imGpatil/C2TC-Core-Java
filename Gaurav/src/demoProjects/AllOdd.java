@@ -4,7 +4,7 @@ public class AllOdd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Add limit to odd numbers ");
+		System.out.println("Enter odd number limit ");
 		Scanner num1 = new Scanner(System.in);
 		int x= num1.nextInt(); 
 		System.out.println("List of all odd numers from 1 to " +x);
